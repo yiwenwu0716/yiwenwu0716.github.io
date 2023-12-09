@@ -1,0 +1,731 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zion Sun Floral</title>
+     <!-- favicon -->
+     <link rel=icon href=assets/img/favicon.png sizes="20x20" type="image/png">
+    <!-- animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="http://cdn.bootstrapmb.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- flaticon -->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- themify -->
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <!-- lightcase -->
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <!-- rvideoplayer -->
+    <link rel="stylesheet" href="assets/css/rvideoplayer.css">
+    <!-- datepicker -->
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
+    <!-- jquery ui  -->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+     <!-- responsive Stylesheet -->
+     <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+    
+    <!-- search Popup -->
+    <div class="body-overlay" id="body-overlay"></div>
+    <div class="search-popup" id="search-popup">
+        <form action="index.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="ti-search"></i></button>
+        </form>
+    </div>
+    <!-- //. search Popup -->
+
+    <!-- Navbar area start -->
+    <div class="nav-style-01-wrap">
+        <nav class="navbar navbar-area navbar-expand-lg nav-style-01 nav-style-02">
+            <div class="container-fluid nav-container">
+                <div class="responsive-mobile-menu">
+                    <div class="logo-wrapper mobile-logo">
+                        <a href="index.html" class="logo">
+                            <img src="assets/img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bloom_main_menu" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </span>
+                    </button>
+                </div>
+                <div class="logo-wrapper desktop-logo">
+                    <a href="index.html" class="logo">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bloom_main_menu">
+                    <ul class="navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="shop-left-sidebar.html">Shop</a>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right-content">
+                    <ul>
+                        <li class="mini-cart-icon">
+                            <span class="mini-cart-icon header-navbar-active">
+                                <a href="cart.html"><i class="ti-shopping-cart"></i></a>
+                                <sup>2</sup>
+                            </span>
+                        </li>
+                        <li class="search" id="search">
+                            <i class="ti-search"></i>
+                        </li>
+                        <li class="user-menu" >
+                            <a href="#"><img src="assets/img/icon/user-img-2.png" alt="User"><span>Hi Sam</span></a>
+                            <ul>
+                                <li><a href="my-account.html">My Account</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar area end -->
+
+    <!-- Mini cart start -->
+    <div class="mini-cart-wrapper">
+        <div class="sidebar-nav-icon">
+            <button class="mini-cart-close"><img src="assets/img/icon/cart-icon.png" alt="Arrow Image"></button>
+        </div>
+        <div class="mini-cart-inner scrollbar-primary">
+            <ul>
+                <li>
+                    <div class="section-title-area ">
+                        <div class="section-title section-title-2">
+                            <div class="icon">
+                                <img src="assets/img/icon/title.svg" alt="Bloom">
+                            </div>
+                            <div class="title-text">
+                                <h2 class="title">My orders</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart-item">
+                        <div class="cart-item-inner">
+                            <div class="product-image">
+                                <a href="product-details.html"><img src="assets/img/product/mini-cart/1.jpg" alt="Flower Image"></a>
+                            </div>
+                            <div class="cart-item-brief">
+                                <div class="product-order-number">1</div>
+                                <div class="product-multiply">x</div>
+                                <div class="cart-product-title"><h2 class="product-title"><a href="product-details.html">Beautiful Roses</a></h2></div>
+                                <div class="product-price">$230</div>
+                                <div class="product-remove"><a href="#"><i class="fa fa-trash-o"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart-item">
+                        <div class="cart-item-inner">
+                            <div class="product-image">
+                                <a href="product-details.html"><img src="assets/img/product/mini-cart/2.jpg" alt="Flower Image"></a>
+                            </div>
+                            <div class="cart-item-brief">
+                                <div class="product-order-number">1</div>
+                                <div class="product-multiply">x</div>
+                                <div class="cart-product-title"><h2 class="product-title"><a href="product-details.html">Wonderful lillies</a></h2></div>
+                                <div class="product-price">$230</div>
+                                <div class="product-remove"><a href="#"><i class="fa fa-trash-o"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart-item">
+                        <div class="cart-item-inner">
+                            <div class="product-image">
+                                <a href="product-details.html"><img src="assets/img/product/mini-cart/3.jpg" alt="Flower Image"></a>
+                            </div>
+                            <div class="cart-item-brief">
+                                <div class="product-order-number">1</div>
+                                <div class="product-multiply">x</div>
+                                <div class="cart-product-title"><h2 class="product-title"><a href="product-details.html">Sunflower Roses</a></h2></div>
+                                <div class="product-price">$230</div>
+                                <div class="product-remove"><a href="#"><i class="fa fa-trash-o"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart-item">
+                        <div class="cart-item-inner cart-total">
+                            <h2>Total</h2>
+                            <h2><strong>$630</strong></h2>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart-item">
+                        <div class="cart-item-inner cart-total cart-btn">
+                            <div class="btn-wrapper">
+                                <a href="cart.html" class="boxed-btn btn-rounded">View basket</a>
+                            </div>
+                            <div class="btn-wrapper">
+                                <a href="cart.html" class="boxed-btn btn-rounded">Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul> 
+        </div>
+    </div>
+    <!-- Mini cart end -->
+
+    <!-- Breadcrumb area start -->
+    <div class="breadcrumb-area breadcrumb-style-1">
+        <div class="container">
+            <div class="row custom-gutter">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-inner text-center">
+                        <h1 class="page-title">Cart</h1>
+                        <!-- <ul class="page-list">
+                            <li><a href="#">Home</a></li>
+                            <li>Shop</li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb area end -->
+
+    <!-- Cart area start -->
+    <div class="cart-area margin-bottom-120  mobile-mb-50 tab-mb-80">
+        <div class="container">
+            <div class="row custom-gutter">
+                <!-- shoping-cart-tab-menu -->
+                <div class="col-xl-8 offset-xl-2">
+                    <div class="shoping-cart-tab-menu">
+                        <div class="nav">
+                            <a class="active show" data-toggle="tab" href="#bloom_cart_1_1">Cart</a>
+                            <a data-toggle="tab" href="#bloom_cart_1_2" class="">Shipping</a>
+                            <a data-toggle="tab" href="#bloom_cart_1_3" class="">Payment</a>
+                            <a data-toggle="tab" href="#bloom_cart_1_4" class="">Summary</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- shoping-cart-tab-info -->
+                <div class="col-xl-8 offset-xl-2">
+                    <div class="shoping-cart-tab-info">
+                        <div class="tab-content">
+                            <!-- cart -->
+                            <div class="tab-pane fade active show" id="bloom_cart_1_1">
+                                <div class="shopping-cart-info">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="shoping-cart-inner">
+                                                <div class="shoping-cart-inner-table">
+                                                    <form action="#">
+                                                        <div class="table-content table-responsive mb-50">
+                                                            <table class="text-center">
+                                                                <tbody>
+                                                                    <!-- tr -->
+                                                                    <tr>
+                                                                        <td class="cart-product-remove">
+                                                                            <a href="#"><i class="ti-trash"></i></a>
+                                                                        </td>
+                                                                        <td class="cart-product-thumbnail">
+                                                                            <a href="product-details.html"><img src="assets/img/product/1.png" alt=""></a>
+                                                                        </td>
+                                                                        <td class="cart-product-title">
+                                                                            <h6><a href="product-details.html">Mod Blooms Bouquet</a></h6>
+                                                                        </td>
+                                                                        <td class="cart-product-price">$49.99</td>
+                                                                        <td class="cart-product-multifly">x</td>
+                                                                        <td class="cart-product-quantity">
+                                                                            <div class="product-meta product-quantity clearfix">
+                                                                                <!-- <span class="product-meta-title">Quantity</span> -->
+                                                                                <div class="product-meta-type">
+                                                                                    <div class="cart-plus-minus">
+                                                                                        <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="cart-product-subtotal">$49.99</td>
+                                                                    </tr>
+                                                                    <!-- tr -->
+                                                                    <tr>
+                                                                        <td class="cart-product-remove">
+                                                                            <a href="#"><i class="ti-trash"></i></a>
+                                                                        </td>
+                                                                        <td class="cart-product-thumbnail">
+                                                                            <a href="product-details.html"><img src="assets/img/product/2.png" alt=""></a>
+                                                                        </td>
+                                                                        <td class="cart-product-title">
+                                                                            <h6><a href="product-details.html">Mod Rose Bouquet</a></h6>
+                                                                        </td>
+                                                                        <td class="cart-product-price">$49.99</td>
+                                                                        <td class="cart-product-multifly">x</td>
+                                                                        <td class="cart-product-quantity">
+                                                                            <div class="product-meta product-quantity clearfix">
+                                                                                <!-- <span class="product-meta-title">Quantity</span> -->
+                                                                                <div class="product-meta-type">
+                                                                                    <div class="cart-plus-minus">
+                                                                                        <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="cart-product-subtotal">$49.99</td>
+                                                                    </tr>
+                                                                    <!-- tr -->
+                                                                    <tr>
+                                                                        <td class="cart-product-remove">
+                                                                            <a href="#"><i class="ti-trash"></i></a>
+                                                                        </td>
+                                                                        <td class="cart-product-thumbnail">
+                                                                            <a href="product-details.html"><img src="assets/img/product/3.png" alt=""></a>
+                                                                        </td>
+                                                                        <td class="cart-product-title">
+                                                                            <h6><a href="product-details.html">Moondance</a></h6>
+                                                                        </td>
+                                                                        <td class="cart-product-price">$137.95</td>
+                                                                        <td class="cart-product-multifly">x</td>
+                                                                        <td class="cart-product-quantity">
+                                                                            <div class="product-meta product-quantity clearfix">
+                                                                                <!-- <span class="product-meta-title">Quantity</span> -->
+                                                                                <div class="product-meta-type">
+                                                                                    <div class="cart-plus-minus">
+                                                                                        <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="cart-product-subtotal">$137.95</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </form>
+                                                    <div class="shoppint-cart-total">
+                                                        <div class="row">
+                                                            <div class="col-xl-6">
+                                                                <div class="shopping-cart-coupon">
+                                                                    <p>Enter a promo code</p>
+                                                                    <form action="#" class="form-input-box">
+                                                                        <input type="text" placeholder="HELLOSUMMER">
+                                                                        <button type="submit"><i class="ti-check"></i></button>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 desktop-text-right">
+                                                                <div class="shopping-cart-total-inner">
+                                                                    <div class=" table-responsive mb-50">
+                                                                        <table class="text-right">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>Subtotal:</td>
+                                                                                    <td>$237.93</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>You save:</td>
+                                                                                    <td class="save-from-coupon">$15</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="cart-total-title">Total:</td>
+                                                                                    <td class="cart-total-price">$222.93</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="shopping-cart-btn margin-top-60 mobile-mt-10 tab-mt-50">
+                                                            <div class="btn-wrapper desktop-text-right">
+                                                                <a href="shop-left-sidebar.html" class="boxed-btn btn-rounded btn-opacity-6">Continue shopping</a>
+                                                                <button class="boxed-btn btn-rounded" type="submit">Shipping method</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- shipping -->
+                            <div class="tab-pane fade" id="bloom_cart_1_2">
+                                <div class="shopping-cart-info shipping-info">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="shoping-cart-inner shipping-info-inner">
+                                                <div class="row">
+                                                    <div class="col-xl-6 col-md-5">
+                                                        <div class="shipping-address">
+                                                            <h4>ADDRESS</h4>
+                                                            <form action="#" class="contact-form-box">
+                                                                <label>First name*</label>
+                                                                <input type="text" name="firstname" placeholder="Sam">
+                                                                <label>Last name*</label>
+                                                                <input type="text" name="lastname" placeholder="Henderson">
+                                                                <label>Street name*</label>
+                                                                <input type="text" name="streetname" placeholder="300 S 450 W">
+                                                                <label>House number*</label>
+                                                                <input type="text" name="housenumber" placeholder="Apt.#4">
+                                                                <label>State*</label>
+                                                                <input type="text" name="state" placeholder="Utah">
+                                                                <label>City*</label>
+                                                                <input type="text" name="city" placeholder="Cedar City">
+                                                                <label>Country*</label>
+                                                                <input type="text" name="country" placeholder="USA">
+                                                                <label>Postal code*</label>
+                                                                <input type="text" name="postalcode" placeholder="84720">
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-md-7">
+                                                        <div class="shipping-subtotal text-right mobile-mb-30">
+                                                            <div class="shopping-cart-total-inner shipping-subtotal-inner text-center">
+                                                                <div class="table-responsive mb-50">
+                                                                    <table class="">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>Total:</td>
+                                                                                <td>$237.93</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>You save:</td>
+                                                                                <td class="save-from-coupon">$15</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Shipping and handling:</td>
+                                                                                <td>$2</td>
+                                                                            </tr>
+                                                                            <tr class="shipping-subtotal-price">
+                                                                                <td class="cart-total-title">Subtotal:</td>
+                                                                                <td class="cart-total-price">$224.93</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <div class="btn-wrapper">
+                                                                        <button class="boxed-btn btn-rounded" type="submit">Continue to Payment</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="shipping-method">
+                                                            <h4>SHIPPING AND HANDLING</h4>
+                                                            <ul>
+                                                                <li>
+                                                                    <input type="radio" id="201" name="selector" checked="checked">
+                                                                    <label for="201">Express shipping <br> Same day delivery before 5pm</label>
+                                                                    <div class="check"></div>
+                                                                </li>
+                                                                <li>
+                                                                    <input type="radio" id="202" name="selector">
+                                                                    <label for="202">Standard shipping <br> Delivery in 2 to 3 business days</label>
+                                                                    <div class="check"><div class="inside"></div></div>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Payment -->
+                            <div class="tab-pane fade" id="bloom_cart_1_3">
+                                <div class="shopping-cart-info shipping-info">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="shoping-cart-inner shipping-info-inner">
+                                                <div class="row">
+                                                    <div class="col-xl-5 col-md-5">
+                                                        <div class="shipping-method payment-method">
+                                                            <h4>PAYMENT METHOD</h4>
+                                                            <ul>
+                                                                <li>
+                                                                    <input type="radio" id="301" name="selector" checked="checked">
+                                                                    <label for="301">Paypal <img src="assets/img/icon/paypal-2.png" alt="Paypal"></label>
+                                                                    <div class="check"></div>
+
+                                                                </li>
+                                                                <li>
+                                                                    <input type="radio" id="302" name="selector">
+                                                                    <label for="302">Creditcard <img src="assets/img/icon/mastercard.png" alt="Creditcard"></label>
+                                                                    <div class="check"><div class="inside"></div></div>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-7 col-md-7">
+                                                        <div class="shipping-subtotal text-right">
+                                                            <div class="shopping-cart-total-inner shipping-subtotal-inner text-center">
+                                                                <div class="table-responsive mb-50">
+                                                                    <table class="">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>Total:</td>
+                                                                                <td>$237.93</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>You save:</td>
+                                                                                <td class="save-from-coupon">$15</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Shipping and handling:</td>
+                                                                                <td>$2</td>
+                                                                            </tr>
+                                                                            <tr class="shipping-subtotal-price">
+                                                                                <td class="cart-total-title">Subtotal:</td>
+                                                                                <td class="cart-total-price">$224.93</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <div class="btn-wrapper">
+                                                                        <button class="boxed-btn btn-rounded" type="submit">Continue to Payment</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Summary -->
+                            <div class="tab-pane fade" id="bloom_cart_1_4">
+                                <div class="shopping-cart-info shipping-summery">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="shoping-cart-inner shipping-summery-inner">
+                                                <h4>THANK YOU FOR YOUR ORDER, SAM.</h4>
+                                                <div class="shipping-summery-brief">
+                                                    <p>Your order number is #12345678</p>
+                                                    <p>If you have any change on your order please contact (435)-586-6119 or zionsun@florist.com</p>
+                                                </div>
+                                                <div class="shoping-cart-inner-table">
+                                                    <form action="#">
+                                                        <div class="table-content table-responsive mb-50">
+                                                            <table class="text-left">
+                                                                <tbody>
+                                                                    <!-- tr -->
+                                                                    <tr>
+                                                                        <td class="cart-product-thumbnail">
+                                                                            <a href="product-details.html"><img src="assets/img/product/1.png" alt=""></a>
+                                                                        </td>
+                                                                        <td class="cart-product-title">
+                                                                            <h6 class="cart-product-title">
+                                                                                <a href="product-details.html">Mod Blooms Bouquet</a>
+                                                                            </h6>
+                                                                            <p><span>Quantity: 1</span><br><span>Total: $49.99</span></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <!-- tr -->
+                                                                    <tr>
+                                                                        <td class="cart-product-thumbnail">
+                                                                            <a href="product-details.html"><img src="assets/img/product/2.png" alt=""></a>
+                                                                        </td>
+                                                                        <td class="cart-product-title">
+                                                                            <h6 class="cart-product-title">
+                                                                                <a href="product-details.html">Mod Rose Bouquet</a>
+                                                                            </h6>
+                                                                            <p><span>Quantity: 1</span><br><span>Total: $49.99</span></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <!-- tr -->
+                                                                    <tr>
+                                                                        <td class="cart-product-thumbnail">
+                                                                            <a href="product-details.html"><img src="assets/img/product/3.png" alt=""></a>
+                                                                        </td>
+                                                                        <td class="cart-product-title">
+                                                                            <h6 class="cart-product-title">
+                                                                                <a href="product-details.html">Moondance</a>
+                                                                            </h6>
+                                                                            <p><span>Quantity: 1</span><br><span>Total: $137.95</span></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12">
+                                            <div class="shipped-to">
+                                                <h4>SHIPPED TO:</h4>
+                                                <p>Sam Henderson, Apt.#4, 300 S 450 W, Cedar City, Utah 84720<br> Express shipping</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12">
+                                            <div class="track-order">
+                                                <div class="row">
+                                                    <div class="col-xl-6">
+                                                        <p>Your can track your order here once it is shipped.</p>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="btn-wrapper">
+                                                            <a href="#" class="boxed-btn btn-rounded">Track order</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart area end -->
+
+    <!-- footer area start -->
+    <footer class="footer-area">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row custom-gutter">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="footer-widget widget">
+                            <div class="about_us_widget">
+                                <a href="index.html" class="footer-logo"> 
+                                    <img src="assets/img/footer-logo.png" alt="footer logo">
+                                </a>
+                                <p>Flowers invariably uplift people, enhancing their mood and wellbeing, acting as a source of joy and a therapeutic balm for the spirit.</p>
+                                <address> <a href="tel:4355866119">435-586-6119</a> <br>48 E 200 S, Cedar City, UT 84720 <br><a href="zionsun@florist.com">zionsun@florist.com</a></address>
+                                <div class="social_share">
+                                    <ul>
+                                        <li><a href="https://www.instagram.com/zionsunflorist" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://twitter.com/zionsunflorist" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.facebook.com/zionsunflorist/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/zionsunflorist" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-6 col-md-6">
+                        <div class="footer-widget widget widget_text text-center mobile-text-left">
+                            <h4 class="widget-title">Working hours</h4>
+                            <p>Mon - Sat: 9am - 5pm <br>
+                             Sun: Closed </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="footer-widget widget">
+                            <div class="newsletter-widget">
+                                <h4 class="widget-title">Contact us</h4>
+                                <p>Be among the first one to eceive and benefit from our inclusive sales every week.</p>
+                                <form action="#" class="form-input-box">
+                                    <input type="text" placeholder="Enter your email address">
+                                    <button type="submit"><img src="assets/img/icon/arrow-right-white-2.svg" alt="Arrow Icon"></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-long-arrow-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <!-- popper -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="http://cdn.bootstrapmb.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- wow -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- waypoint -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- counterup -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- imageloaded -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- isotope -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- isotope -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- Instafeed -->
+    <script src="assets/js/instafeed.min.js"></script>
+    <!-- rvideoPlayer -->
+    <script src="assets/js/jquery.rvideoPlayer.js"></script>
+    <!-- lightcase -->
+    <script src="assets/js/lightcase.js"></script>
+    <!-- datepicker -->
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <!-- jquery ui -->
+    <script src="assets/js/jquery-ui-price-range.js"></script>
+
+     <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
